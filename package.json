@@ -1,0 +1,22 @@
+{
+  "name": "tpg",
+  "version": "1.0.0",
+  "description": "Team Profile Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobBurson/Wk-10.git"
+  },
+  "author": "RobBurson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobBurson/Wk-10/issues"
+  },
+  "homepage": "https://github.com/RobBurson/Wk-10#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
