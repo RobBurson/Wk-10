@@ -15,8 +15,8 @@ module.exports = {
     <title>${teamProfileArr[0]}</title>
     <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
-    <link href = "https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Spartan&display=swap" rel = "stylesheet">
-    <link rel = "stylesheet" href = "../src/styles.css">
+    <link href = "https://fonts.googleapis.com/css2?family=Genos:wght@300&display=swap" rel = "stylesheet">
+    <link rel = "stylesheet" href = "../source/styles.css">
  </head>
  <body>
     <div class = "title-bar">
