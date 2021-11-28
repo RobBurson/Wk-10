@@ -6,11 +6,11 @@ const Manager = require( "./library/Manager" );
 const Engineer = require( "./library/Engineer" );
 const Intern = require( "./library/Intern" );
 
-const addEmployeeQuestion = require( "./library/add-employee-questions" );
-const managerQuestions = require( "./library/manager-questions" );
-const engineerQuestions = require( "./library/engineer-questions" );
-const internQuestions = require( "./library/intern-questions" );
-const holdHtml = require( "./library/html-template" );
+const addEmployeeQuestion = require( "./library/add-employee-q" );
+const managerq = require( "./library/manager-q" );
+const engineerq = require( "./library/engineer-q" );
+const internq = require( "./library/intern-q" );
+const holdHtml = require( "./library/htmltemplate" );
 
 // Array to hold team members.
 let teamProfileArr = [];
@@ -56,7 +56,7 @@ function generateHtmlFile() {
 
 // Add the intern profile to the teamProfileArr array.
 function addInternProfile() {
-   inquirer.prompt( internQuestions )
+   inquirer.prompt( internq )
    .then ( function( data ) {
       const internName = data.internName;
       const internId = data.internId;
@@ -76,7 +76,7 @@ function addInternProfile() {
 
 // Add the engineer profile to the teamProfileArr array.
 function addEngineerProfile() {
-   inquirer.prompt( engineerQuestions )
+   inquirer.prompt( engineerq )
    .then ( function( data ) {
       const engineerName = data.engineerName;
       const engineerId = data.engineerId;
@@ -118,7 +118,7 @@ function addNonManagerTeamMember() {
 
 // Add the engineer profile to the teamProfileArr array.
 function addManagerProfile() {
-   inquirer.prompt( managerQuestions )
+   inquirer.prompt( managerq )
    .then( function( data ) {
       const managerName = data.managerName;
       const managerId = data.managerId;
